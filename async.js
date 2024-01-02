@@ -22,7 +22,6 @@ doRequest();
 doRequest();
 doRequest();
 doRequest();
-doRequest();
 // output -> in this case all the request are made at the same time and also completed at the same time
 //  because libuv is handling all the request at the same time and it is delegating request to the OS which
 //  does not block the event loop and hence all the request are completed at the same time
@@ -36,4 +35,3 @@ doRequest();
 // End 445
 // End 446
 // End 452
-// End 455
